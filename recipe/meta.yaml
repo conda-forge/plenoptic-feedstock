@@ -32,6 +32,7 @@ requirements:
     - scikit-image >=0.15.0
     - einops >=0.3.0
     - Deprecated
+    - importlib-resources >= 6.0
 
 test:
   imports:
