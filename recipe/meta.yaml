@@ -1,5 +1,5 @@
 {% set name = "plenoptic" %}
-{% set version = "1.0.2" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/plenoptic-{{ version }}.tar.gz
-  sha256: d11c9b60d4650e75b5654f06e87fc245efb6291779067ec891287898f7f2ce77
+  sha256: 733719f0bf63b6c68e35560a8bfa36aa8f065b82b038d7d8b84ccd4e6a5f3fec
 
 build:
   noarch: python
@@ -31,6 +31,8 @@ requirements:
     - imageio >=2.5
     - scikit-image >=0.15.0
     - einops >=0.3.0
+    - Deprecated
+    - importlib-resources >=6.0
 
 test:
   imports:
