@@ -31,8 +31,8 @@ requirements:
     - imageio >=2.5
     - scikit-image >=0.15.0
     - einops >=0.3.0
-    - Deprecated
     - importlib-resources >=6.0
+    - pooch >=1.2.0
 
 test:
   imports:
