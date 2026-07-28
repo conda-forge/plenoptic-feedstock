@@ -1,5 +1,5 @@
 {% set name = "plenoptic" %}
-{% set version = "2.0.1" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/plenoptic-{{ version }}.tar.gz
-  sha256: 7a42f884289aa1243bcda1ff6fc29c41051c3cf6cd408a04cf044624cff8099f
+  sha256: 9039b5a5e4161662deebadce9fdb7f7f119c97df07abfd9b51715b3fdc7b25fb
 
 build:
   noarch: python
