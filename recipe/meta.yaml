@@ -1,5 +1,5 @@
 {% set name = "plenoptic" %}
-{% set version = "2.1.1" %}
+{% set version = "2.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/plenoptic-{{ version }}.tar.gz
-  sha256: 7a46a087dbecef85742a3b92088f07709241cb6808bed7f28a12c10eeb423475
+  sha256: 68fbf31dc487548807e6d477dee8de59d8468bab8ea52b90d0d8867e3422c1dc
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
     - python >={{ python_min }}
     - numpy >=1.1
     - pytorch >=1.8,!=1.12.0
-    - pyrtools >=1.0.11
+    - pyrtools >=1.1.1
     - scipy >=1.0
     - matplotlib-base >=3.3
     - tqdm >=4.29
